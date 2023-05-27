@@ -1,0 +1,175 @@
+/* Navbar */
+nav {
+    background-color: #393e4a;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+nav a {
+    color: #F5B041;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Arial";
+    font-size: 18px;
+}
+
+
+nav a:hover {
+    color: orange;
+}
+
+.Home {
+    transition: all 0.2s;
+}
+
+.Home:hover {
+    color: orange;
+    transform: scale(1.1,1.1);
+}
+
+
+
+/* Body */
+.accueil {
+    background-image: url("../PICTURES/accueil.jpeg");
+    background-size: cover;
+}
+
+
+body {
+    margin: 0;
+    background-color: #2a2e39;
+    justify-content: center;
+}
+
+table,
+td {
+    margin: 20px auto;
+    border: 1px solid #333;
+}
+
+thead {
+    font-family: "Arial";
+    font-size: 1.5rem;
+    background-color: #393e4a;
+    color: white;
+}
+
+tbody {
+    font-family: "Arial";
+    background-color: #393e4a;
+    color: #B3B6B7;
+    text-align: center;
+}
+
+tbody td {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+}
+
+.horizontalgroup {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 35px;
+}
+
+
+label {
+    color: white;
+    font-family: "Arial";
+    font-size: 1.4rem;
+    margin: 5px;
+}
+
+input {
+    font-family: "Arial";
+    text-align: center;
+    font-size: 1rem;
+    background-color: #303646;
+    color: #B3B6B7;
+    border: 1px solid gray;
+    outline: 0;
+}
+
+select,
+option {
+        font-family: "Arial";
+        font-size: 1rem;
+        background-color: #303646;
+        color: #B3B6B7;
+        text-align: center;
+}
+
+.button {
+    font-family: Arial;
+    font-size: 1.5rem;
+    background-color: #393e4a;
+    color: white;
+    display: flex;
+    margin: 40px auto;
+    padding: 10px;
+
+    border: 2px solid gray;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.button:hover {
+    transform: scale(1.1,1.1);
+}
+
+.box {
+    background-color: #393e4a;
+    border: 1px solid gray;
+    width: 20%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+#vendeur {
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+.box p {
+    margin: 10px;
+    font-family: Arial;
+    color: #B3B6B7;
+}
+
+h1 {
+    font-family: Arial;
+    color: white;
+    display: flex;
+    margin: 20px auto;
+    padding-top: 20px;
+    justify-content: center;
+}
